@@ -6,7 +6,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #$Id: functionsCF.py 1 2023-10-01 12:00:00Z user $
 #
-import numpy as np # type: ignore
+import numpy as np
 #
 # This is a self defined function of comparing difference of 2D arrays
 # It takes two 2D arrays as input and returns the elements in the first array that are not present in the second array.

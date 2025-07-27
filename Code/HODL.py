@@ -3,13 +3,13 @@
 # This module contains the implementation of a Transformer Encoder and Decoder
 # with positional embeddings, designed for sequence processing tasks.
 #
-import tensorflow              as      tf                     # type: ignore
-from   tensorflow              import  keras                  # type: ignore
-from   tensorflow.keras        import  layers                 # type: ignore
-from   tensorflow.keras.layers import (Embedding,             # type: ignore
+import tensorflow              as      tf                    
+from   tensorflow              import  keras                  
+from   tensorflow.keras        import  layers                 
+from   tensorflow.keras.layers import (Embedding,            
                                        MultiHeadAttention, 
-                                       LayerNormalization)    # type: ignore  # noqa: F401
-from   tensorflow.keras        import  Sequential             # type: ignore  # noqa: F401
+                                       LayerNormalization)    
+from   tensorflow.keras        import  Sequential             
 # 
 # The TransformerEncoder processes input sequences with multi-head attention,
 # while the TransformerDecoder generates output sequences based on encoder outputs.
